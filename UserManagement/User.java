@@ -142,8 +142,8 @@ public class User {
     }
 
     // Gut: Exit-Logik beendet das Programm klar
-    public User ExitProgramm() {
-        System.out.println("\nProgramm has been closed");
+    public User ExitProgram() {
+        System.out.println("\nProgram has been closed");
         System.out.println("Good bye!");
         System.exit(0); // Verbesserung: Programm könnte Ressourcen vor dem Exit freigeben
         return null;
