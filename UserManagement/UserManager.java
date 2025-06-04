@@ -61,7 +61,7 @@ public class UserManager {
                         case 5:
                             return admin.ChangePassword(curUser, sc);
                         case 6:
-                            return admin.ExitProgramm();
+                            return admin.ExitProgram();
                         default:
                             System.out.println("\nInvalid option"); // Gut: Rückmeldung für ungültige Eingabe
                             break;
@@ -98,7 +98,7 @@ public class UserManager {
                     case 4:
                         return curUser.ChangePassword(curUser, sc);
                     case 5:
-                        return curUser.ExitProgramm();
+                        return curUser.ExitProgram();
                     default:
                         System.out.println("\nInvalid option"); // Gut: Rückmeldung für ungültige Auswahl
                         break;
